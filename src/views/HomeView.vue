@@ -10,6 +10,9 @@
             {{ item.name }}
           </li>
         </ul>
+        <p class="selected-label">
+          selected: <b>{{selectedUserItems.length}} / {{userItems.length}}</b>
+        </p>
       </div>
 
       <div>
@@ -141,5 +144,9 @@ h3 {
 .selected {
   background-color: #99ee90;
   border-color: #81c784;
+}
+
+.selected-label {
+  margin-top: 5px;
 }
 </style>
