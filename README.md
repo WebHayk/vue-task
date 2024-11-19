@@ -1,33 +1,27 @@
-# vue-task
+# Vue Task
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue.js application that implements a simple interface with dynamic item selection.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Displays items in two categories: User Items and Available Items.
+- Allows selecting up to 6 user items and 1 available item.
+- The selected user items appear in the top left section.
+- The selected available item appears in the top right section.
 
-## Type Support for `.vue` Imports in TS
+## Setup
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+1. Clone this repository:
 ```sh
-npm install
+   git clone https://github.com/WebHayk/vue-task.git
 ```
 
-### Compile and Hot-Reload for Development
-
+2. Install dependencies:
 ```sh
-npm run dev
+   npm install
 ```
 
-### Type-Check, Compile and Minify for Production
-
+2. Run the application:
 ```sh
-npm run build
+   npm run dev
 ```
