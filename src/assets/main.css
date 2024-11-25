@@ -23,3 +23,9 @@ ul {
 .w-full {
   width: 100%;
 }
+
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
